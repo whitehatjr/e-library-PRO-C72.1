@@ -209,7 +209,6 @@ export default class TransactionScreen extends Component {
                 placeholder={"Book Id"}
                 placeholderTextColor={"#FFFFFF"}
                 value={bookId}
-                onChangeText={text => this.setState({ bookId: text })}
               />
               <TouchableOpacity
                 style={styles.scanbutton}
@@ -224,7 +223,6 @@ export default class TransactionScreen extends Component {
                 placeholder={"Student Id"}
                 placeholderTextColor={"#FFFFFF"}
                 value={studentId}
-                onChangeText={text => this.setState({ studentId: text })}
               />
               <TouchableOpacity
                 style={styles.scanbutton}
